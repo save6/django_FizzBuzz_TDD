@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>FizzBuss問題</title>
+    </head>
+    <body>
+        <h1>FizzBuss問題</h1>
+        <form method="post">
+            {% csrf_token %}
+            <textarea id="num_list" name="num_list" rows="12" cols="60">{{ num_list }}</textarea>
+            <input type="submit" id="start_btn" value="start">
+        </form>
+    </body>
+</html>
